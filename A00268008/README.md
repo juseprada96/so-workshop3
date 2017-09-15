@@ -73,15 +73,15 @@ addr es la nueva posición de break.
 ![][4]
 
 
-Comandos de escritura y lectura, read y write
+### Comandos de escritura y lectura, read y write
 
-read(int fd, void *buf, size_t count)
+#### read(int fd, void *buf, size_t count)
 
 fd es el file descriptor
 buf es el buffering de dónde leera los datos
 count es la cantidad de datos que va a leer del buffering
 
-write(int fd, const void *buf, size_t count)
+#### write(int fd, const void *buf, size_t count)
 
 fd es el file descriptor
 buf es el buffering dónde escribira los datos
